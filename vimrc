@@ -62,6 +62,8 @@ map <leader>g :GundoToggle<CR>
 
 " Python syntax validation
 let g:pyflakes_use_quickfix = 0
+highlight SpellBad term=reverse cterm=reverse ctermfg=7 ctermbg=1
+
 
 " Python PEP8 validation (requires pep8 executable)
 let g:pep8_map='<leader>8'
